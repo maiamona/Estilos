@@ -1,0 +1,41 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    background: url('../img/entretenimento1.jpg'), url('../img/esporte1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--cinza);
+}
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo--destaque {
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+    display: block;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
